@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
 
@@ -68,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
         exitButton.setOnClickListener {
             finish()
-            System.exit(0)
+            exitProcess(0)
         }
     }
 
