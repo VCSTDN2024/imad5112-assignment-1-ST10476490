@@ -5,4 +5,5 @@
     <string name="reset">Reset</string>
     <string name="select_time_prompt">Select time of day</string>
     <string name="exit">Exit</string>
+    <string name="meal_choice_2025">Meal Choice 2025</string>
 </resources>

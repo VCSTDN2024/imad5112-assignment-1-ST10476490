@@ -10,7 +10,7 @@
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Meal Choice 2025"
+        android:text="@string/meal_choice_2025"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,7 +24,8 @@
         android:text="Choose the time:"
         android:layout_marginTop="32dp"
         app:layout_constraintTop_toBottomOf="@id/titleTextView"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
 
     <Spinner
         android:id="@+id/timeSpinner"
@@ -54,7 +55,8 @@
         android:textColor="#212121"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/suggestionTextView" />
+        app:layout_constraintTop_toBottomOf="@id/suggestionTextView"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/exitButton"
@@ -65,6 +67,7 @@
         android:text="Exit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/resetButton" />
+        app:layout_constraintTop_toBottomOf="@id/resetButton"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
