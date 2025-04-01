@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meal Choice 2025</string>
+    <string name="select_time">Select Time of Day:</string>
+    <string name="reset">Reset</string>
+    <string name="select_time_prompt">Select time of day</string>
+    <string name="exit">Exit</string>
+</resources>
